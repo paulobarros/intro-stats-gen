@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Introdução a Estatística Genômica"
+  site-url: "https://paulobarros.github.io/introducao-ao-linux"
+  repo-url: "https://github.com/paulobarros/intro-stats-gen"
+  repo-actions: [issue]
+  
+  page-footer:
+    left: "![](images/MM.png){width=45}"
+    right: "&copy; CC-By Paulo Barros, 2024"
+    
+  sidebar:
+    logo: "images/LogoTidy.png"
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://paulobarros.com.br
+        text: "paulobarros.com.br"
+      - icon: github
+        href: https://github.com/paulobarros/intro-stats-gen
+        text: "Introdução a Estatística Genômica"
+      - icon: twitter
+        href: https://twitter.com/pbarrosjr
+        text: "Paulo Barros Twitter"         
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd 
+        text: Bem-vind@s!
+      - auto: "*.qmd"
+      
+
+format:
+  html:
+    theme:
+      light: [yeti, pbstyle.scss]
+      dark: [darkly, pbstyle.scss]
+    code-copy: true
+    code-overflow: wrap
+    code-block-border-left: false
+    code-block-bg: "#ececec"
+    code-line-numbers: true
+    highlight-style: tango
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: scrartcl
+    include-in-header: 
+       text: |
+         \usepackage{fvextra}
+         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+          showspaces = false,
+          showtabs = false,
+          breaksymbolleft={},
+          breaklines
+        }
+
+execute:
+  freeze: auto
