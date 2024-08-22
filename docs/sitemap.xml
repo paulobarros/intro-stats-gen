@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://paulobarros.github.io/introducao-ao-linux/index.html</loc>
-    <lastmod>2024-08-20T22:38:57.724Z</lastmod>
+    <loc>https://paulobarros.github.io/intro-stats-gen/1_snpStats.html</loc>
+    <lastmod>2024-08-22T22:53:13.016Z</lastmod>
+  </url>
+  <url>
+    <loc>https://paulobarros.github.io/intro-stats-gen/index.html</loc>
+    <lastmod>2024-08-22T22:51:36.098Z</lastmod>
   </url>
 </urlset>

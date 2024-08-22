@@ -5,7 +5,7 @@ project:
 website:
   page-navigation: true
   title: "Introdução a Estatística Genômica"
-  site-url: "https://paulobarros.github.io/introducao-ao-linux"
+  site-url: "https://paulobarros.github.io/intro-stats-gen/"
   repo-url: "https://github.com/paulobarros/intro-stats-gen"
   repo-actions: [issue]
   
@@ -14,7 +14,7 @@ website:
     right: "&copy; CC-By Paulo Barros, 2024"
     
   sidebar:
-    logo: "images/LogoTidy.png"
+    logo: "images/LogoStatsGen.png"
     pinned: true
     align: center
     tools: 
